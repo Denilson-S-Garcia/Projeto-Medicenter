@@ -1,0 +1,293 @@
+<html>
+<head>
+
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, user-scalable=0" />
+
+<link rel="stylesheet" type="text/css" href="assets/css/template.css" />
+<script type="text/javascript">
+    window.onload = function(){
+        document.querySelector(".menu_mobile").addEventListener("click", function(){
+            if(document.querySelector(".menu nav ul").style.display=='flex'){
+                document.querySelector(".menu nav ul").style.display ='none';
+            } else{
+                document.querySelector(".menu nav ul").style.display ='flex';
+            }
+        });
+    };
+    </script>
+
+
+<title>MediCenter</title>
+
+</head>
+<body>
+
+<header><!--inicio do cabeçalho-->
+	<div class="container">
+		<div class="logo">
+			<a href=""><img src="assets/images/logo.png" /></a>
+		</div>
+		<div class="menu"><!--inico div menu-->
+			<nav><!--tag usada apenas para menus ajuda na leitura dos motores de busca -->
+				<div class="menu_mobile">
+					<div class="mm_line"></div>
+					<div class="mm_line"></div>
+					<div class="mm_line"></div>
+				</div>
+				
+				<ul>
+					<li class="active"><a href="">HOME</a></li>
+		            <li><a href="">BLOGS</a></li>
+					<li><a href="">PAGES</a></li>
+					<li><a href="">DEPARTAMENTS</a></li>
+					<li><a href="">TIMETABLE</a></li>
+					<li><a href="">GALLERY</a></li>
+					<li><a href="">CONTACT</a></li>
+				</ul>
+			</nav>
+		</div>
+	</div><!--FIM div menu-->
+</header><!--FIM do cabeçalho-->
+<section id="banner"><!--Primeira seção onde fica banner--> 
+	<div class="container column"><!--container mãe-->
+		<div class="banner_headline"><!--seção onde fica texto-->
+			<h1>TOP NOTCH EXPERIENCE</h1>
+			<h2>Medicenter is a responsive tamplate perfect for all screem sizes</h2>
+
+		</div>
+		<div class="banner_options"><!--seção onde fica os banner de opções -->
+			<div class="banner1">
+				<h2 class="banner_title">Emergency Case</h2>
+			<p class="banner_desc">If you need a doctor urgently outside of Medicenter opening hour, call emergency appointment number for emergency service.</p>
+                <a href="">Read more</a>
+			</div>
+			<div class="banner2">
+				<h2 class="banner_title">Doctors Timetables</h2>
+				<p class="banner_desc">Here at medicenter we heaven individual doctor´s list. Click read more below to see services and current timetable for our doctor.</p>
+                <a href="">Read more </a>
+			</div>
+			<div class="banner3">
+				<h2 class="banner_title">Opening Hours</h2>
+				<div class="schedule">
+					<div class="day">Monday - Friday</div>
+					<div class="hour">8.00 - 17.00</div>
+				</div>
+				<div class="schedule">
+					<div class="day">Saturday</div>
+					<div class="hour">9.30 - 17.30</div>
+				</div>
+				<div class="schedule">
+					<div class="day">Sunday</div>
+					<div class="hour">9.30 - 15.00</div>
+				</div>     
+
+			</div><!--banner3 seção -->
+
+		</div>
+    </div><!--container column-->
+	
+
+</section><!--fim Primeira seção onde fica banner--> 
+<section id="section2">  <!--section2 segunda parte do site-->
+	<div class="container"> <!--div container-->
+	  <section class="sectionright"> <!--div pai parte direita do site-->
+		<div class="widget">         <!--div container do titulo e barra-->
+			<div class="widget_title">Latest News</div>
+			<div class="widget_title_bar"></div>
+	</div><!-- FIM div container do titulo e barra-->
+		<div class="widget_body flex" >     <!--div container do corpo onde tem conteúdo-->
+			<article>
+				<a href="">
+					<div class=" news_data">
+                   		 <div class="news_posted_at">12 DEC 12</div>
+                   		 <div class="news_comments">2</div>
+                	</div>
+               		<div class="news_thumbnail">
+                    	<img src="assets/images/dr.jpg" alt="imagem do doutor" />
+                	</div>
+						<h2 class="news_title">Aenean nec enim eget lacus dignissim tempor.</h2>
+						<p class="news_resume">Lorem ipsum dolor sit amet, consectetur adipiscing elit 
+							Proin egestas ac mi at condimentum. Donec sem odio, ornare a lectus sed;
+							 iaculis mattis ex. Praesent varius, ipsum sed consectetur aliquet.
+							  Vivamus id tortor non libero mattis bibendum. Praesent ut orci nibh.</p>
+			    </a>
+			</article>
+			<article>
+				<a href="">
+					<div class=" news_data">
+                   		 <div class="news_posted_at">12 DEC 12</div>
+                   		 <div class="news_comments">2</div>
+                	</div>
+               		<div class="news_thumbnail">
+                    	<img src="assets/images/dr.jpg" alt="imagem do doutor" />
+                	</div>
+						<h2 class="news_title">Aenean nec enim eget lacus dignissim tempor.</h2>
+						<p class="news_resume">Lorem ipsum dolor sit amet, consectetur adipiscing elit 
+							Proin egestas ac mi at condimentum. Donec sem odio, ornare a lectus sed;
+							 iaculis mattis ex. Praesent varius, ipsum sed consectetur aliquet.
+							  Vivamus id tortor non libero mattis bibendum. Praesent ut orci nibh.</p>
+			    </a>
+			</article>
+			<article>
+				<a href="">
+					<div class=" news_data">
+                   		 <div class="news_posted_at">12 DEC 12</div>
+                   		 <div class="news_comments">2</div>
+                	</div>
+               		<div class="news_thumbnail">
+                    	<img src="assets/images/dr.jpg" alt="imagem do doutor" />
+                	</div>
+						<h2 class="news_title">Aenean nec enim eget lacus dignissim tempor.</h2>
+						<p class="news_resume">Lorem ipsum dolor sit amet, consectetur adipiscing elit 
+							Proin egestas ac mi at condimentum. Donec sem odio, ornare a lectus sed;
+							 iaculis mattis ex. Praesent varius, ipsum sed consectetur aliquet.
+							  Vivamus id tortor non libero mattis bibendum. Praesent ut orci nibh.</p>
+			    </a>
+			</article>
+			<article>
+				<a href="">
+					<div class=" news_data">
+                   		 <div class="news_posted_at">12 DEC 12</div>
+                   		 <div class="news_comments">2</div>
+                	</div>
+               		<div class="news_thumbnail">
+                    	<img src="assets/images/dr.jpg" alt="imagem do doutor" />
+                	</div>
+						<h2 class="news_title">Aenean nec enim eget lacus dignissim tempor.</h2>
+						<p class="news_resume">Lorem ipsum dolor sit amet, consectetur adipiscing elit 
+							Proin egestas ac mi at condimentum. Donec sem odio, ornare a lectus sed;
+							 iaculis mattis ex. Praesent varius, ipsum sed consectetur aliquet.
+							  Vivamus id tortor non libero mattis bibendum. Praesent ut orci nibh.</p>
+			    </a>
+			</article>
+			
+		</div>                  <!--FIM div container corpo onde tem conteudo-->
+         
+		
+	 </section><!-- FIM div  da SEÇÃO da direita-->
+	  <aside class="sectionleft">
+		<div class="widget"> <!--div container do titulo e barra-->
+			<div class="widget_title">Departaments</div>
+			<div class="widget_title_bar"></div>
+		</div> <!-- FIM div container WIDGET do titulo e barra-->
+		<div class="widget_body"> 
+          
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+           
+          
+        </div>  <!-- FIM widget_body-->
+			<div class="widget">       <!--div container do titulo e barra-->
+				<div class="widget_title">Make an appointment</div>
+				<div class="widget_title_bar"></div>
+			</div><!-- FIM div container WIDGET do titulo e barra-->
+			<div class="widget_body">  <!--corpo onde tem conteudo-->
+                <p class="paragrafo">Lorem ipsum dolor sit amet, adipiscing elit. 
+             venenatis ac nisi. Vivamus lacus.</p>
+             <p class="paragrafo"><img src="../medicenter/assets/images/fone.png" width="42px" />by Phone:  <b>1-800-643-4300</b></p>
+                <p class="paragrafo"><img src="../medicenter/assets/images/email.png" width="40px" /> by e-mail: <a class="ancora" href="">medicenter@gmail</a>
+                    </p>
+                    <p class="paragrafo"><img src="../medicenter/assets/images/form.png" width="42px" /> or <a  class="ancora" href="">fill in the form </a> on our contact page
+                        </p>
+			</div>   <!--FIM corpo onde tem conteudo-->
+			 
+		</div>    <!--FIM WIDGET corpo onde tem conteudo-->
+         
+	  </aside> <!--FIM sectionleft-->
+   
+   
+</section> <!--FIM da section 2-->
+<footer>
+	<div class="container flexcolumn"><!--seção onde fica container  banner de opções -->
+		<div class="footer_menu">
+			<div class="banner1 banner_footer">
+				<h2 class="banner_title">Health Insurance</h2>
+				<p class="banner_desc"><a href="">Here at medicenter we heaven individual .<sub><img src="assets/images/seta.png" width="18px" alt="imagem seta do link"></sub></a></p>
+			
+			</div>
+			<div class="banner2 banner_footer">
+				<h2 class="banner_title">Medical Records</h2>
+				<p class="banner_desc"><a href="">Here at medicenter we heaven individual .<sub><img src="assets/images/seta.png" width="18px" alt="imagem seta do link"></sub></a></p>
+			
+			</div>
+			<div class="banner3 banner_footer">
+				<h2 class="banner_title">Online Bill Pay</h2>
+				<p class="banner_desc"><a href="">Here at medicenter we heaven individual .<sub><img src="assets/images/seta.png" width="18px" alt="imagem seta do link"></sub></a></p>
+			</div>     
+
+		</div>
+		<div class="footer_area">
+				<div class="footer_area_item">
+						<div class="widget_title area_desc">Medicenter Clinic</div>
+						<div class="widget_title_bar"></div>
+					<div class="widget_body_footer text1">  <!--corpo onde tem conteudo-->
+						<p class=>Lorem ipsum dolor sit amet, adipiscing elit. 
+					 venenatis ac nisi. Lacusipsum sit amet.</p>
+					</div>
+					<div class="contact">
+					 <div>
+						<p class="p1">Medicenter Clinic </p>
+						<p class="p2">33 Farlane street</p>
+						<p class="p3">Kalior East</p>
+						<p class="p4">VIC 3033,Australia</p>
+					 </div>
+					
+					
+						<div class="bloco2">
+						<p class="p5">+123-655-555</p>
+						<p class="p6">+127-655-555</p>
+						<p class="p7"><a href="">medicenter@gmail.com</a></p>
+					  </div>
+					</div>	
+					<div class="redes_sociais">
+						<a href=""><img src="assets/images/iconetwitter-9.fw.png" alt="logotwitter" width="25" height="22px"></a>
+						<a href=""><img src="assets/images/iconeface-6.fw.png" alt="logotwitter" width="14px" height="22px"></a>
+						<a href=""><img src="assets/images/iconeinsta-7.fw.png" alt="logotwitter" width="22px"></a>
+					    <a href=""><img src="assets/images/iconeemail-8.fw.png" alt="logotwitter" width="33px" height="22px"></a>
+					</div>
+				</div> <!--FIM footer_area-->
+				
+				<div class="footer_area_item">
+					<div class="widget_title area_desc">Latest Posts</div>
+					<div class="widget_title_bar"></div>
+					<div class="widget_body_footer">  <!--corpo onde tem conteudo-->
+						<p class=>Lorem ipsum dolor sit amet, adipiscing elit. 
+					 venenatis ac nisi. Vivamus lacus.</br><a class="ancoradata" href="" >2 days ago</a></p>
+					 <p class=>Lorem ipsum dolor sit amet, adipiscing elit. 
+					</br><a class="ancoradata" href="" >3 days ago</a></p>
+						<p class=>Lorem ipsum dolor sit amet, adipiscing elit. 
+							venenatis ac nisi. Vivamus lacus.</br><a class="ancoradata" href="" >6 days ago</a></p>
+					</div>
+				</div>
+				<div class="footer_area_item">
+					<div class="widget_title area_desc">Latest tweets</div>
+					<div class="widget_title_bar"></div>
+					<div class="widget_body_footer text3">  <!--corpo onde tem conteudo-->
+						<p class=>Lorem ipsum dolor sit amet, adipiscing elit. 
+					 #venenatis company #huac #nisi #deany company# #vivamuslacus
+					 #carslunesthemes... <a class="linkfooter"href="">t.co/tyvmMPHvm40</a></br><a class="ancoradata" href="" >2 days ago</a></p>
+					 
+					 <p class=>Lorem ipsum dolor sit amet, adipiscing elit. 
+						#venenatis company #huac #nisi #deany company# #vivamuslacus
+						#carslunesthemes... <a class="linkfooter"href="">t.co/tyvmMPHvm40</a></br><a class="ancoradata" href="" >4 days ago</a></p>
+						<p class=>Lorem ipsum dolor sit amet, adipiscing elit. 
+							#venenatis company #huac #nisi #deany company# #vivamuslacus
+							#carslunesthemes... <a class="linkfooter"href="">t.co/tyvmMPHvm40</a></br><a class="ancoradata"href="" >7 days ago</a></p>
+					</div>
+					
+				</div>
+				
+		</div><!--fim footer_area-->
+        <div class="footer_copy">
+			copyright-Todos os direitos reservados.
+		</div>
+	</div><!--FIM container  banner de opções -->
+	
+</footer>
+</body>
+</html>
